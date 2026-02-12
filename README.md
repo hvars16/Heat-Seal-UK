@@ -1,8 +1,8 @@
 # E-Commerce Website (HTML & CSS)
 
 ## Project Overview
-This project is a static e-commerce website created using HTML5 and CSS3.
-It demonstrates page structure, navigation, layout, and responsive design.
+This project is a static e-commerce website created using HTML5 and CSS called Heat Seal UK.
+It demonstrates page structure, navigation, layout, and responsive design and is built like a shopify store to be able to sell a product.
 No JavaScript was used.
 
 ## Website Pages
@@ -16,10 +16,11 @@ No JavaScript was used.
 - GitHub Pages
 
 ## Live Website
-https://username.github.io/project-name/
+(https://hvars16.github.io/Heat-Seal-UK/index.html)
 
 ## Screenshots
 ![Homepage](Images/homepage.png)
 
 ## Author
-Student Name – CST0400 – 2025/26
+
+Haren Varsani – CST0400 – 2025/26
