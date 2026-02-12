@@ -19,7 +19,7 @@ No JavaScript was used.
 (https://hvars16.github.io/Heat-Seal-UK/index.html)
 
 ## Screenshots
-![Homepage](Images/homepage.png)
+![Homepage](homepage.png)
 
 ## Author
 
