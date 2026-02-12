@@ -1,0 +1,262 @@
+/* RESET */
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+/* HEADER */
+.site-header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:1rem 2rem;
+background:#0b1a2e;
+}
+
+.logo{
+height:40px;
+}
+
+nav a{
+color:white;
+margin-left:1.5rem;
+text-decoration:none;
+font-weight:bold;
+}
+
+/* FOOTER */
+footer{
+text-align:center;
+padding:2rem;
+background:#0b1a2e;
+color:white;
+}
+
+/* HOME */
+
+.hero{
+min-height:70vh;
+background:linear-gradient(to right,#020c1b,#04162f);
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+color:white;
+text-align:center;
+}
+
+.hero h1{
+font-size:3rem;
+}
+
+.cta-btn{
+margin-top:1rem;
+background:#b59b22;
+padding:1rem 2rem;
+color:black;
+text-decoration:none;
+font-weight:bold;
+}
+
+.features{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:2rem;
+padding:4rem;
+text-align:center;
+}
+
+.feature-box{
+padding:2rem;
+border:1px solid #ddd;
+}
+
+/* PRODUCT PAGE */
+
+.product-page{
+background:#020c1b;
+min-height:100vh;
+color:white;
+padding:3rem;
+}
+
+.product-container{
+max-width:1100px;
+margin:auto;
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:3rem;
+}
+
+.main-image{
+width:100%;
+background:white;
+padding:1rem;
+}
+
+.thumbnail-row{
+display:flex;
+gap:1rem;
+margin-top:1rem;
+}
+
+.thumbnail-row img{
+width:80px;
+cursor:pointer;
+background:black;
+padding:0.3rem;
+}
+
+.price-row{
+display:flex;
+gap:1rem;
+align-items:center;
+margin:1rem 0;
+}
+
+.compare-price{
+text-decoration:line-through;
+opacity:0.6;
+}
+
+.badge{
+border:1px solid white;
+padding:0.2rem 0.6rem;
+}
+
+select,input,textarea,button{
+width:100%;
+padding:0.7rem;
+margin-top:0.5rem;
+}
+
+.qty-box{
+display:flex;
+}
+
+.qty-box button{
+width:40px;
+}
+
+.soldout-btn{
+background:none;
+border:1px solid white;
+color:white;
+margin-top:1rem;
+}
+
+.paypal-btn{
+background:#b59b22;
+color:black;
+margin-top:1rem;
+font-weight:bold;
+}
+
+/* CONTACT */
+
+.contact-section{
+padding:4rem;
+text-align:center;
+}
+
+.contact-form{
+max-width:400px;
+margin:auto;
+display:flex;
+flex-direction:column;
+gap:1rem;
+}
+
+/* MOBILE */
+
+@media(max-width:900px){
+
+.features{
+grid-template-columns:1fr;
+}
+
+.product-container{
+grid-template-columns:1fr;
+}
+/* FORM LAYOUT */
+.form-grid{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:1.2rem;
+margin-top:1.5rem;
+}
+
+.form-group{
+display:flex;
+flex-direction:column;
+}
+
+.form-group.full{
+grid-column:1 / -1;
+}
+
+/* LABELS */
+.form-group label{
+font-size:0.9rem;
+margin-bottom:6px;
+opacity:0.85;
+}
+
+/* INPUTS */
+.form-group input,
+.form-group textarea{
+background:#020c1b;
+border:1px solid #1f3a5f;
+color:white;
+padding:12px 14px;
+border-radius:10px;
+font-size:14px;
+transition:all 0.2s ease;
+}
+
+/* PLACEHOLDER */
+.form-group input::placeholder,
+.form-group textarea::placeholder{
+color:#6f8db3;
+}
+
+/* FOCUS EFFECT */
+.form-group input:focus,
+.form-group textarea:focus{
+outline:none;
+border-color:#b59b22;
+box-shadow:0 0 0 2px rgba(181,155,34,0.25);
+}
+
+/* BUTTON */
+.submit-btn{
+grid-column:1 / -1;
+margin-top:10px;
+background:#b59b22;
+color:black;
+font-weight:bold;
+padding:14px;
+border:none;
+border-radius:12px;
+cursor:pointer;
+font-size:15px;
+letter-spacing:0.5px;
+transition:all 0.25s ease;
+}
+
+.submit-btn:hover{
+background:#d4b82e;
+transform:translateY(-1px);
+box-shadow:0 8px 18px rgba(0,0,0,0.35);
+}
+
+/* MOBILE */
+@media(max-width:700px){
+.form-grid{
+grid-template-columns:1fr;
+}
+}
+
+}
